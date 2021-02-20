@@ -1,0 +1,114 @@
+.page-teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85)),
+    url("../assets/img/page-team-img.png");
+    color: white;
+    text-align: center;
+
+}
+
+.teams-container {
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    flex-direction: column;
+}
+
+.teams-title {
+    margin:70px 0 20px 0;
+    max-width: 312px;
+    height: 16px;
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 22px;
+
+}
+
+.teams-txt {
+    margin: 0 0 60px 0;
+    max-width: 401px;
+    height: 15px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 14px;
+
+}
+
+.separator {
+    background-color: #413d4b;
+}
+
+
+.workers-list-container {
+
+}
+
+
+.workers-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    max-width: 218px;
+    height: 80px;
+    border: 1px solid  rgba(225, 225, 225, 0.3);
+
+}
+
+.worker-item-header {
+    font-family: 'Roboto-Black';
+    /*max-width: 85px;*/
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    height: 10px;
+    margin-top: 20px;
+
+}
+
+.worker-item-text {
+    font-family: 'Roboto-Thin';
+    /*max-width: 100px;*/
+    font-size: 13px;
+    height: 9px;
+    margin-top:12px;
+    opacity: 0.7;
+}
+
+.team-promo-btn {
+    font-family: 'Roboto-Thin';
+    /*max-width: 307px;*/
+    height: 14px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    margin: 70px 0 25px 0 ;
+
+}
+
+.btn-hiring {
+margin-bottom: 60px;
+}
+
+
+
+/*---------------responsive---------------*/
+@media only screen and (max-width: 365px) {
+    .responsive-workers-list {
+        width: calc(220px);
+    }
+}
+
+
+@media only screen and (min-width: 440px) and (max-width: 768px) {
+    .responsive-workers-list {
+        width: calc(2 * 220px + 1 * 20px);
+    }
+}
+.responsive-workers-list {
+    width: calc(220px * 4 + 20px * 3);
+}

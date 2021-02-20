@@ -1,0 +1,68 @@
+.page-about {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 70px 0 0 0;
+}
+
+.about-img {
+    display: block;
+    max-width: 235px;
+    max-height: 230px;
+    margin-right: 100px;
+}
+
+.about-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    text-align: left;
+    max-width: 135px;
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+.about-txt {
+    font-family: 'Roboto-Thin';
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    line-height: 22px;
+    max-width: 540px;
+    text-align: left;
+    margin: 0 0 20px 0;
+    opacity: 0.75;
+}
+
+.btn-learn-more {
+    margin: 10px 0 80px 0;
+}
+
+.page-about-video {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85)),
+    url("../assets/img/page-video-store-img.png");
+}
+
+.video-btn {
+    margin: 200px 0 30px 0;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.video-link {
+    height: 12px;
+    color: white;
+    font-family: 'Roboto-Black';
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    margin: 0 0 200px 0;
+}
+
+
+/*---------------responsive---------------*/
