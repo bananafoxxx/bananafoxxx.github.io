@@ -40,6 +40,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     box-sizing: border-box;
+    margin-bottom:  70px;
 }
 
 .expertise-items-list-responsive {
@@ -53,6 +54,7 @@
     width: calc(100% + 1px);
     height: calc(100% + 1px);
     box-sizing: border-box;
+
 }
 
 .expertise-item {

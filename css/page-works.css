@@ -6,6 +6,7 @@
 
 .works{
     display: flex;
+    width: 100%;
     justify-content: space-around;
     margin:70px 0;
 }
@@ -75,6 +76,14 @@
 @media only screen and (max-width: calc(267px * 2 - 1px)) {
     .works-list-container-responsive {
         width: 267px;
+    }
+
+    .works{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin:70px 0;
+        width: 200px;
     }
 }
 

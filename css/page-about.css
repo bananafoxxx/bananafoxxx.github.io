@@ -14,7 +14,7 @@
 .about-article {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .about-title {

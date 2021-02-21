@@ -73,6 +73,10 @@
     align-items: center;
 }
 
+.happy-clients-column:last-child {
+    margin-left: 20px;
+}
+
 .happy-clients-logo {
     margin-top: 50px;
 }
