@@ -3,7 +3,7 @@
 .page-header {
     background-image: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85)),
     url('../assets/img/page-header-container-img.png');
-    background-size: cover;
+    /*background-size: cover;*/
     color: white;
     padding: 20px;
 }
@@ -94,7 +94,7 @@
 
 /*---------------responsive---------------*/
 
-@media (max-width: 350px) {
+@media (max-width: 768px) {
     .main-nav-container {
         flex-direction: column;
     }

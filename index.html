@@ -111,7 +111,7 @@
             <div class='separator'></div>
         </div>
 
-        <ul class='expertise-items-list'>
+        <ul class='expertise-items-list expertise-items-list-responsive'>
 
             <li class='expertise-item'>
                 <img class='expertise-item-img' src='./assets/icons/color-icons/screen-icon.png' alt='screen-img'>
@@ -214,20 +214,19 @@
             <a class='works-link' href='#'><p>See All Project in dribble> </p></a>
         </div>
 
-        <ul class='works-list'>
-            <li class='work-item'><img src='./assets/img/our-works-img.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-2.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-img.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-2.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-img.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-2.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-img.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-2.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-img.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-2.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-img.png' alt='our-work'></li>
-            <li class='work-item'><img src='./assets/img/our-works-2.png' alt='our-work'></li>
-
+        <ul class='works-list-container works-list-container-responsive'>
+            <li class='work-item'><!-- <img src='./assets/img/our-works-img.png' alt='our-work'> --></li>
+            <li class='work-item'><!--<img src='./assets/img/our-works-2.png' alt='our-work'> --></li>
+            <li class='work-item'><!-- <img src='./assets/img/our-works-img.png' alt='our-work'> --></li>
+            <li class='work-item'><!--<img src='./assets/img/our-works-2.png' alt='our-work'> --></li>
+            <li class='work-item'><!-- <img src='./assets/img/our-works-img.png' alt='our-work'> --></li>
+            <li class='work-item'><!--<img src='./assets/img/our-works-2.png' alt='our-work'> --></li>
+            <li class='work-item'><!-- <img src='./assets/img/our-works-img.png' alt='our-work'> --></li>
+            <li class='work-item'><!--<img src='./assets/img/our-works-2.png' alt='our-work'> --></li>
+            <li class='work-item'><!-- <img src='./assets/img/our-works-img.png' alt='our-work'> --></li>
+            <li class='work-item'><!--<img src='./assets/img/our-works-2.png' alt='our-work'> --></li>
+            <li class='work-item'><!-- <img src='./assets/img/our-works-img.png' alt='our-work'> --></li>
+            <li class='work-item'><!--<img src='./assets/img/our-works-2.png' alt='our-work'> --></li>
         </ul>
 
         <div class='btn-load-more'>
@@ -237,7 +236,7 @@
         </div>
 
     </section>
-    s
+
     <!------------------feedback------------------>
 
     <section class='section-container page-people-say' id='people-say'>
@@ -261,40 +260,43 @@
 
         <div class='page-contact-clients-container'>
 
-            <div class='form-container'>
-                <h2 class='form-header'>GIVE US A GOOD NEWS</h2>
-                <form class='form' action='' method='get'>
-                    <input type='text' name='name' placeholder='Name' autofocus>
-                    <input type='text' name='email' placeholder='Email'>
-                    <input type='text' name='subject' placeholder='Subject'>
-                    <textarea name='message' placeholder='Your Message'></textarea>
+            <div class="good-news-form-container">
+                <h2 class='good-news-form-header'>GIVE US A GOOD NEWS</h2>
+                <form class="good-news-form" action='' method='get'>
+                    <input class="good-news-form-field-input" type='text' name='name' placeholder='Name' autofocus>
+                    <input class="good-news-form-field-input" type='text' name='email' placeholder='Email'>
+                    <input class="good-news-form-field-input" type='text' name='subject' placeholder='Subject'>
+                    <textarea class="good-news-form-field-textarea" name='message'
+                              placeholder='Your Message'></textarea>
                     <a href='#'>
                         <button class='btn btn-submit'>SUBMIT</button>
                     </a>
                 </form>
             </div>
 
-
             <div class='happy-clients-container'>
-                <h2 class='our-client-logo-list'>OUR HAPPY CLIENT</h2>
+                <h2 class='happy-clients-header'>OUR HAPPY CLIENT</h2>
 
-                <div class='happy-clients'>
+                <div class='happy-clients-columns-container'>
 
-                    <div class='first-column'>
-                        <img class='logo logo-list1' src='./assets/icons/Zara_Logo.svg.svg' alt='zara-logo'>
-                        <img class='logo logo-list1' src='./assets/icons/Barneys_New_York_Logo.svg.svg'
+                    <div class='happy-clients-column'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Zara_Logo.svg.svg' alt='zara-logo'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Barneys_New_York_Logo.svg.svg'
                              alt='barneys-logo'>
-                        <img class='logo logo-list1' src='./assets/icons/Calvin_klein_logo.svg.svg' alt='CK-logo'>
-                        <img class='logo logo-list1' src='./assets/icons/Converse_logo.svg.svg' alt='converse-logo'>
-                        <img class='logo logo-list1' src='./assets/icons/Levis_logo.svg.svg' alt='levis-logo'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Calvin_klein_logo.svg.svg'
+                             alt='CK-logo'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Converse_logo.svg.svg'
+                             alt='converse-logo'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Levis_logo.svg.svg' alt='levis-logo'>
                     </div>
 
-                    <div class='second-column'>
-                        <img class='logo logo-list2' src='./assets/icons/Mango-logo.svg' alt='mango-logo'>
-                        <img class='logo logo-list2' src='./assets/icons/Gucci_Logo.svg.svg' alt='gucci-logo'>
-                        <img class='logo logo-list2' src='./assets/icons/NIKE-logo.svg' alt='nike-logo'>
-                        <img class='logo logo-list2' src='./assets/icons/Puma_Logo.svg.svg' alt='puma-logo'>
-                        <img class='logo logo-list2' src='./assets/icons/Billabong.svg.svg' alt='billabong-logo'>
+                    <div class='happy-clients-column'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Mango-logo.svg' alt='mango-logo'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Gucci_Logo.svg.svg' alt='gucci-logo'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/NIKE-logo.svg' alt='nike-logo'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Puma_Logo.svg.svg' alt='puma-logo'>
+                        <img class='happy-clients-logo' src='./assets/icons/logos/Billabong.svg.svg'
+                             alt='billabong-logo'>
                     </div>
 
                 </div>
@@ -311,9 +313,9 @@
     <footer class='section-container page-footer' id='footer'>
         <div class='footer-container'>
             <div class='footer-sign-contacts-subscribe-container'>
-                <div class='footer-sign-description footer-scs-block'>
 
-                    <div class='footer-logo-container'>
+                <div class='footer-sign-description-container footer-scs-block'>
+                    <div class='footer-logo-container page-footer-header-responsive'>
                         <img src='./assets/icons/footer-icon/footer-plane.png' alt='tajam-logo'>
                         <span class='footer-logo'>tajam</span>
                     </div>
@@ -327,15 +329,15 @@
 
                 <div class='our-studio-container footer-scs-block'>
                     <!--                <div class='our-studio-container'>-->
-                    <h3 class='our-studio-header page-footer-header'>OUR STUDIO</h3>
-                    <div class='our-studio-icon-text-container'>
+                    <h3 class='our-studio-header page-footer-header page-footer-header-responsive'>OUR STUDIO</h3>
+                    <div class='our-studio-icon-text-container our-studio-location'>
                         <img class='mark-icon' src='./assets/icons/footer-icon/mark-icon.png' alt='mark-icon'>
                         <p class='our-location'>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13,
                             Kalideres - Jakarta Barat
                             11480 - Indonesia</p>
                     </div>
 
-                    <div class='our-studio-icon-text-container footer-scs-block'>
+                    <div class='our-studio-icon-text-container'>
                         <img class='footer-tel-icon' src='./assets/icons/footer-icon/footer-tel-icon.png'
                              alt='footer-tel-icon'>
                         <p class='our-tel'>(+62) 21-2224 3333</p>
@@ -345,7 +347,7 @@
 
 
                 <div class='stay-in-touch-container'>
-                    <h3 class='stay-in-touch-header page-footer-header'>STAY IN TOUCH</h3>
+                    <h3 class='stay-in-touch-header page-footer-header page-footer-header-responsive'>STAY IN TOUCH</h3>
                     <form class='subscribe-newsletter-form'>
                         <input class='subscribe-newsletter-form-email' type='email' name='subscribe-our-news'
                                placeholder='Subscribe our newsletter'>
@@ -370,14 +372,12 @@
             </div>
 
 
-            <nav class='footer-nav'>
-
+            <nav class='footer-nav footer-nav-responsive'>
                 <ul class='footer-nav-links'>
                     <li>HELP</li>
                     <li>TERMS & CONDITION</li>
                     <li>PRIVACY</li>
                 </ul>
-
                 <p class='copyright'>Copyright © 2015 - Tajem Creative</p>
             </nav>
 

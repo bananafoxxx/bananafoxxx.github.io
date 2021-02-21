@@ -57,6 +57,7 @@ img {
     background-color: transparent;
     padding: 15px;
     min-width: 120px;
+    line-height: 10px;
 }
 
 .separator {
@@ -66,4 +67,7 @@ img {
     background-color: #00e0d0;
 }
 
+.section-container {
+    background-size: cover;
+}
 
