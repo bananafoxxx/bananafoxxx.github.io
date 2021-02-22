@@ -78,6 +78,10 @@
 .footer-network {
     margin-right: 8px;
 }
+.footer-network:hover {
+    opacity: 0.6;
+
+}
 
 .footer-nav {
     line-height: 10px;
@@ -138,6 +142,8 @@
 .our-studio-location {
     margin-bottom: 14px;
 }
+
+
 
 /*---------------responsive---------------*/
 

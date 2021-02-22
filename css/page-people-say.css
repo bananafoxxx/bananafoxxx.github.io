@@ -49,3 +49,7 @@ margin: 70px 0 42px 0;
 .carousel {
     margin-bottom: 50px;
 }
+.carousel-response {
+    max-width: 345px;
+    object-fit: contain;
+}
